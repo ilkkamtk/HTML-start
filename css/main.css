@@ -1,17 +1,49 @@
 .ykkosvari {
-    background-color: rgb(56, 123, 200);
+    background-color: rgb(115, 96, 61);
 }
 
 .kakkosvari {
-    background-color: rgb(200, 56, 123);
+    background-color: rgb(191, 138, 73);
 }
 
 .kolmosvari {
-    background-color: rgb(56, 200, 123);
+    background-color: rgb(242, 202, 128);
 }
 
 .nelosvari {
-    background-color: rgb(200, 56, 0);
+    background-color: rgb(94, 90, 89);
+}
+
+.vitosvari {
+    background-color: rgb(13, 13, 13);
+}
+
+.ykkosteksti {
+    color: rgb(115, 96, 61);
+}
+
+.kakkosteksti {
+    color: rgb(191, 138, 73);
+}
+
+.kolmosteksti {
+    color: rgb(242, 202, 128);
+}
+
+.nelosteksti {
+    color: rgb(94, 90, 89);
+}
+
+.vitosteksti {
+    color: rgb(13, 13, 13);
+}
+
+.valkoinen {
+    color: rgb(255,255,255)
+}
+
+.musta {
+    color: rgb(0,0,0)
 }
 
 .container {

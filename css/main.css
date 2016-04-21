@@ -39,18 +39,21 @@
 }
 
 .valkoinen {
-    color: rgb(255,255,255)
+    color: rgb(255, 255, 255)
 }
 
 .musta {
-    color: rgb(0,0,0)
+    color: rgb(0, 0, 0)
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'sinkin', sans-serif;
 }
 
@@ -73,15 +76,49 @@ header img {
 }
 
 #vasen-nav {
-    width: 8em;
+    width: 10em;
     float: left;
-    padding: 1em;
+    /* padding: 1em; */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    line-height: 3em;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid #000;
+}
+
+#vasen-nav a:hover {
+    background-color: rgb(242, 202, 128);
 }
 
 #yla-nav {
-    width: 50.5em;
+    width: 52.5em;
     float: left;
-    padding: 1em;
+    /* padding: 1em; */
+}
+
+#yla-nav li {
+    float: left;
+    width: 25%;
+}
+
+#yla-nav a {
+    border-bottom: none;
+    line-height: 2.3em;
+    font-size: 0.8em;
+}
+
+#yla-nav a:hover {
+    background-color: rgb(115, 96, 61);
 }
 
 main {
@@ -105,18 +142,6 @@ figcaption {
 .kuva {
     float: left;
     padding: 0 1em 1em 0;
-    display: none; /* joko tämä tai figure pois näkyvistä */
+    display: none;
+    /* joko tämä tai figure pois näkyvistä */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -46,6 +46,14 @@
     color: rgb(0,0,0)
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'sinkin', sans-serif;
+}
+
 .container {
     width: 62.5em;
     margin: auto;
@@ -57,6 +65,11 @@
 
 header {
     height: 10em;
+    background-image: url(../img/puubanneri.jpg);
+}
+
+header img {
+    padding: 10px;
 }
 
 #vasen-nav {
@@ -76,3 +89,34 @@ main {
     float: left;
     padding: 0em 1em 1em 1em;
 }
+
+figure {
+    max-width: 400px;
+    margin: 0;
+    float: left;
+    padding: 0 1em 1em 0;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+.kuva {
+    float: left;
+    padding: 0 1em 1em 0;
+    display: none; /* joko tämä tai figure pois näkyvistä */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

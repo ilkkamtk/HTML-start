@@ -82,8 +82,13 @@ header img {
     /* padding: 1em; */
 }
 
-#vasen-nav li:first-child {
-    display: none;
+@media screen and (min-width: 768px) {
+    #vasen-nav li {
+        display: list-item !important;
+    }
+    #vasen-nav li:first-child {
+        display: none !important;
+    }
 }
 
 nav ul {
@@ -166,11 +171,12 @@ main img {
     #yla-nav li {
         width: 50%;
     }
-    
     #yla-nav a {
         border: 1px solid #fff;
     }
-    
+    #vasen-nav li {
+        display: none;
+    }
     #vasen-nav li:first-child {
         display: list-item;
     }
